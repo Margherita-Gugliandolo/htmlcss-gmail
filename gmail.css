@@ -1,0 +1,57 @@
+body{
+  background-image: url('img/sfondo.jpg');
+  color:white;
+}
+
+.container{
+  width: 800px;
+  margin: auto;
+}
+#logo{
+  width: 60px;
+}
+
+#gmail{
+  vertical-align: top;
+  display: inline-block;
+}
+
+nav{
+  display: block;
+}
+
+.number{
+  border: 1px solid black;
+  border-radius: 50%;
+  background-color: orange;
+  color: white;
+  padding:5px;
+}
+
+.row-left{
+  display: inline-block;
+  width:52%;
+}
+
+.read{
+  background-color: lightgrey;
+  color:black;
+}
+
+.unread{
+  background-color: white;
+  color:black;
+}
+
+.star{
+  color:orange;
+}
+.row-right{
+  display: inline-block;
+  width:46%;
+  color: grey;
+}
+
+footer{
+  text-align: center;
+}
